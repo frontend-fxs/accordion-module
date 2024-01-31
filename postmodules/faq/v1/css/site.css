@@ -90,18 +90,16 @@ input[type="checkbox"]:checked + label .fxs-content-module-header:before {
 .fxs-content-module-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   color: #49494f;
   font-weight: 300;
   padding: 0;
   font-size: 14.72px;
   line-height: 20px;
   margin: 0;
-  display: none;
 }
 
 input[type="checkbox"]:checked + label .fxs-content-module-content {
-  display: block;
   max-height: 1000px;
   margin-top: 8px;
 }
