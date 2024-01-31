@@ -1,0 +1,106 @@
+.fxs-content-module-wrapper {
+    border: 1px solid #DDDEDF;
+    background: #FFF;
+    margin-bottom: 32px;
+    width: 100%;
+    float: left;
+}
+.fxs-content-module-title {
+    color: #1B1C23;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-transform: uppercase;
+    background: #F3F3F8;
+    padding: 8px 16px;
+    margin: 0;
+}
+.fxs-content-module-container {
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.fxs-content-module-section {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ECECF1;
+    margin-bottom: 12px;
+}
+.fxs-content-module-section:last-child {
+    border: none;
+    margin-bottom: 0;
+}
+.fxs-content-module-section[expanded] .fxs-content-module-header:after {
+    transform: rotate(45deg) translateX(4px);
+}
+
+.fxs-content-module-section[expanded] .fxs-content-module-header:before {
+    transform: rotate(-45deg) translateX(-4px);
+}
+.fxs-content-module-header {
+    color: #1B1C23;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    padding: 4px 0px;
+    background-color: white;
+    border: none;
+    position: relative;
+    padding-right: 32px;
+}
+
+.fxs-content-module-header:after,
+.fxs-content-module-header:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 8px;
+    height: 2px;
+    background-color: #49494F;
+    transition: all 0.2s ease-in-out;
+    transition-delay: 0;
+}
+
+.fxs-content-module-header:after {
+    transform: rotate(45deg) translateX(-4px);
+}
+
+.fxs-content-module-header:before {
+    transform: rotate(-45deg) translateX(4px);
+}
+
+.fxs-content-module-section[expanded] .fxs-content-module-header:after {
+    transform: rotate(45deg) translateX(4px);
+}
+
+.fxs-content-module-section[expanded] .fxs-content-module-header:before {
+    transform: rotate(-45deg) translateX(-4px);
+}
+.fxs-content-module-content {
+    color: #49494F;
+    font-weight: 300;
+    padding: 0;
+    font-size: 14.72px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+@media(min-width:680px) {
+    .fxs-content-module-title {
+        font-size: 19.2px;
+        line-height: 27.2px;
+    }
+    .fxs-content-module-header {
+        font-size: 19.2px;
+        line-height: 25.92px;
+    }
+    .fxs-content-module-content {
+        font-size: 16px;
+        line-height: 21.6px;
+    }
+}
