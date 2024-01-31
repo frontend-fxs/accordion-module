@@ -1,26 +1,11 @@
-por widget
-por visualizacion
+Generar 4 archivos para FAQ 
 
-amp sin media querys
-site con media querys
+    Estilos antiguos
 
-version legacy tal cual esta con la libreria de amp
-version nueva
+        1 AMP sin media querys
+        1 SITE con media querys
 
+    Estilos nuevos V.1.
 
-Generar 5 archivos para FAQ 
-
-Estilos antiguos
-
-1 legacy sin separar por common o especifico para amp
-1 legacy sin separar por common o especifico para site
-
-Estilos nuevos
-
-1 common site
-1 common amp sin media querys
-1 especifico del nuevo para amp sin media querys
-1 especifico para site con media querys
-
-
-
+        1 AMP sin media querys
+        1 SITE con media querys
