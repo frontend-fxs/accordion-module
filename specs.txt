@@ -1,0 +1,5 @@
+por widget
+por visualizacion
+
+amp sin media querys
+site con  media querys
