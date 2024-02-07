@@ -17,3 +17,15 @@
   padding: 8px 16px;
   margin: 0;
 }
+.fxs-crypto-data-content {
+  color: #49494f;
+  font-weight: 300;
+  padding: 0;
+  font-size: 14.72px;
+  line-height: 20px;
+  margin: 16px;
+}
+table{
+  margin:16px;
+  color: #49494f;
+}
