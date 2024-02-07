@@ -1,11 +1,11 @@
-.fxs-content-module-wrapper {
+.fxs-major-currency-prices-wrapper {
     border: 1px solid #dddedf;
     background: #fff;
     margin-bottom: 32px;
     width: 100%;
     float: left;
   }
-  .fxs-content-module-title {
+  .fxs-major-currency-prices-title {
     color: #1b1c23;
     font-size: 16px;
     font-style: italic;
@@ -16,7 +16,7 @@
     padding: 8px 16px;
     margin: 0;
   }
-  .fxs-content-module-content {
+  .fxs-major-currency-prices-content {
     color: #49494f;
     font-weight: 300;
     padding: 0;
@@ -25,28 +25,28 @@
     margin-top: 8px;
     margin-bottom: 0;
   }
-  table.fxs-content-module-currency-prices-table {
+  table.fxs-major-currency-prices-currency-prices-table {
     width: 100%;
     text-align: center;
     border-collapse: collapse;
     font-size: 1.8svh;
   }
-  table.fxs-content-module-currency-prices-table th {
+  table.fxs-major-currency-prices-currency-prices-table th {
     background-color: #f2f2f2;
   }
-  table.fxs-content-module-currency-prices-table td {
+  table.fxs-major-currency-prices-currency-prices-table td {
     color: #fff;
   }
-  table.fxs-content-module-currency-prices-table td.green {
+  table.fxs-major-currency-prices-currency-prices-table td.green {
     background-color: #9cd6cd;
   }
-  table.fxs-content-module-currency-prices-table td.red {
+  table.fxs-major-currency-prices-currency-prices-table td.red {
     background-color: #faafb5;
   }
-  table.fxs-content-module-currency-prices-table td.blue-grey {
+  table.fxs-major-currency-prices-currency-prices-table td.blue-grey {
     background-color: #888a93;
   }
-  .fxs-content-module-currency-prices-legend {
+  .fxs-major-currency-prices-currency-prices-legend {
     font-size: 11px;
   }
   

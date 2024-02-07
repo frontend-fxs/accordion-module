@@ -1,0 +1,42 @@
+.fxs-crypto-data-wrapper {
+  border: 1px solid #dddedf;
+  background: #fff;
+  margin-bottom: 32px;
+  width: 100%;
+  float: left;
+}
+
+.fxs-crypto-data-title {
+  color: #1b1c23;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-transform: uppercase;
+  background: #f3f3f8;
+  padding: 8px 16px;
+  margin: 0;
+}
+.fxs-crypto-data-content {
+  color: #49494f;
+  font-weight: 300;
+  padding: 0;
+  font-size: 14.72px;
+  line-height: 20px;
+  margin: 16px;
+}
+table{
+  margin:16px;
+  color: #49494f;
+}
+@media(min-width:680px){
+  
+  .fxs-crypto-data-title {
+    font-size: 19.2px;
+    line-height: 27.2px;
+  }
+  .fxs-crypto-data-content {
+    font-size: 16px;
+    line-height: 21.6px;
+  }
+}

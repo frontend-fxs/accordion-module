@@ -1,4 +1,4 @@
-.fxs-content-module-wrapper {
+.fxs-related-module-wrapper {
     border: 1px solid #dddedf;
     background: #fff;
     margin-bottom: 32px;
@@ -6,7 +6,7 @@
     float: left;
   }
   
-  .fxs-content-module-title {
+  .fxs-related-module-title {
     color: #1b1c23;
     font-size: 16px;
     font-style: italic;
@@ -17,11 +17,11 @@
     padding: 8px 16px;
     margin: 0;
   }
-  .fxs-content-module-related-link a {
+  .fxs-related-module-related-link a {
     font-size: 19.2px;
     line-height: 25.92px;
   }
-  .fxs-content-module-related-link a {
+  .fxs-related-module-related-link a {
     text-decoration: none;
     color: #1b1c23;
     font-weight: 700;
@@ -30,13 +30,13 @@
     line-height: 20px;
   }
   
-  .fxs-content-module-related-link:hover,
-  .fxs-content-module-related-link:hover a,
-  .fxs-content-module-related-link a:hover {
+  .fxs-related-module-related-link:hover,
+  .fxs-related-module-related-link:hover a,
+  .fxs-related-module-related-link a:hover {
     color: #e4871b;
   }
   
-  .fxs-content-module-related-link a:hover {
+  .fxs-related-module-related-link a:hover {
     text-decoration: none;
   }
   

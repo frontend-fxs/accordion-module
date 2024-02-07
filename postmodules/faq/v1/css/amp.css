@@ -1,4 +1,4 @@
-.fxs-content-module-wrapper {
+.fxs-faq-module-wrapper {
   border: 1px solid #dddedf;
   background: #fff;
   margin-bottom: 32px;
@@ -7,7 +7,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.fxs-content-module-title {
+.fxs-faq-module-title {
   color: #1b1c23;
   font-size: 16px;
   font-style: italic;
@@ -19,7 +19,7 @@
   margin: 0;
 }
 
-.fxs-content-module-container {
+.fxs-faq-module-container {
   padding: 16px;
   width: 100%;
   box-sizing: border-box;
@@ -28,22 +28,22 @@
   gap: 12px;
 }
 
-.fxs-content-module-section {
+.fxs-faq-module-section {
   padding-bottom: 16px;
   border-bottom: 1px solid #ececf1;
   margin-bottom: 0;
 }
 
-.fxs-content-module-section:last-child {
+.fxs-faq-module-section:last-child {
   border: none;
   margin-bottom: 0;
 }
 
-.fxs-content-module-section input[type="checkbox"] {
+.fxs-faq-module-section input[type="checkbox"] {
   display: none;
 }
 
-.fxs-content-module-header {
+.fxs-faq-module-header {
   padding: 4px 0px;
   background-color: white;
   border: none;
@@ -53,8 +53,8 @@
   margin: 0;
 }
 
-.fxs-content-module-header:after,
-.fxs-content-module-header:before {
+.fxs-faq-module-header:after,
+.fxs-faq-module-header:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -66,28 +66,28 @@
   transition-delay: 0;
 }
 
-.fxs-content-module-header:after {
+.fxs-faq-module-header:after {
   transform: rotate(45deg) translateX(-4px);
 }
 
-.fxs-content-module-header:before {
+.fxs-faq-module-header:before {
   transform: rotate(-45deg) translateX(4px);
 }
 
-.fxs-content-module-header:after,
-.fxs-content-module-header:before {
+.fxs-faq-module-header:after,
+.fxs-faq-module-header:before {
   transition: transform 300ms ease-in-out;
 }
 
-input[type="checkbox"]:checked + label .fxs-content-module-header:after {
+input[type="checkbox"]:checked + label .fxs-faq-module-header:after {
   transform: rotate(45deg) translateX(4px);
 }
 
-input[type="checkbox"]:checked + label .fxs-content-module-header:before {
+input[type="checkbox"]:checked + label .fxs-faq-module-header:before {
   transform: rotate(-45deg) translateX(-4px);
 }
 
-.fxs-content-module-content {
+.fxs-faq-module-content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 300ms ease-in-out;
@@ -100,7 +100,7 @@ input[type="checkbox"]:checked + label .fxs-content-module-header:before {
   display: none;
 }
 
-input[type="checkbox"]:checked + label .fxs-content-module-content {
+input[type="checkbox"]:checked + label .fxs-faq-module-content {
   display: block;
   max-height: 1000px;
   margin-top: 8px;

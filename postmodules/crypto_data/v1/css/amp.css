@@ -1,4 +1,4 @@
-.fxs-content-module-wrapper {
+.fxs-crypto-data-wrapper {
   border: 1px solid #dddedf;
   background: #fff;
   margin-bottom: 32px;
@@ -6,7 +6,7 @@
   float: left;
 }
 
-.fxs-content-module-title {
+.fxs-crypto-data-title {
   color: #1b1c23;
   font-size: 16px;
   font-style: italic;
@@ -16,11 +16,4 @@
   background: #f3f3f8;
   padding: 8px 16px;
   margin: 0;
-}
-@media(min-width:680px){
-  
-  .fxs-content-module-title {
-    font-size: 19.2px;
-    line-height: 27.2px;
-  }
 }
